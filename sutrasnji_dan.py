@@ -74,4 +74,5 @@ else:
         godina_sutra = godina_danas + 1
 #       ispisujemo sutrasnji datum
 
-print(str(dan_sutra)+"."+str(mesec_sutra)+"."+str(godina_sutra))
+# print(str(dan_sutra)+"."+str(mesec_sutra)+"."+str(godina_sutra))
+print(dan_sutra,".",mesec_sutra,".",godina_sutra,sep="")
