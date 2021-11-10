@@ -69,7 +69,7 @@ else:
         prethodni_dan = 31
         prethodni_mesec = 12
         prethodna_godina = godina_danas - 1
-#       ispisujemo sutrasnji datum
-
+        
+#       ispisujemo prethodni datum
 print(str(prethodni_dan)+"."+str(prethodni_mesec)+"."+str(prethodna_godina))
 #print(prethodni_dan,".",prethodni_mesec,".",prethodna_godina,sep="")
