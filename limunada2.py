@@ -16,10 +16,10 @@
 
 import math
 
-# Ubacili smo npr 10 samo da bi iskocili iznad 1 kako bi prevazisli probleme sa deljenjem floata
 v_flase = float(input("Unesi zapreminu flase: "))
 v_limunade = float(input("Unesi ukupnu zapreminu limunade za istakanje: "))
 
+# primenili eps kao mali delic koji bi pomogao da izadjemo iz problema 2.999999996
 broj_flasa = math.floor(1e-6 + v_limunade / v_flase)
 
 print(broj_flasa)
